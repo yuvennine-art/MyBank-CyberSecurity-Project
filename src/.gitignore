@@ -1,0 +1,29 @@
+# 虚拟环境与系统文件
+.venv/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# IDE 配置
+.idea/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 证书与密钥（敏感文件，绝不上传）
+certs/
+master_key.bin
+*.pem
+*.key
+*.crt
+
+# 数据库与日志
+mybank.db
+server.log
+
+# OTP 临时文件
+otp_*.txt
+*

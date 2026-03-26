@@ -1,0 +1,502 @@
+2025-02-26 09:51:21,973 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 09:51:44,015 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 09:52:00,015 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 09:52:11,401 [INFO] CONNECT: ('127.0.0.1', 64472) 已连接
+2025-02-26 10:02:16,009 [INFO] DISCONNECT: ('127.0.0.1', 64472) 断开连接
+2025-02-26 10:02:26,929 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 10:06:57,613 [INFO] CONNECT: ('127.0.0.1', 64846) 已连接
+2025-02-26 10:16:35,517 [INFO] CONNECT: ('127.0.0.1', 64949) 已连接
+2025-02-26 10:17:21,065 [INFO] REQUEST: ('127.0.0.1', 64949) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123'}
+2025-02-26 10:19:34,835 [INFO] REQUEST: ('127.0.0.1', 64949) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 10:22:14,001 [INFO] REQUEST: ('127.0.0.1', 64949) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 10:25:03,179 [INFO] REQUEST: ('127.0.0.1', 64949) 请求: {'action': 'create_account', 'username': '123', 'password': '123456', 'email': '123@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 10:29:14,196 [INFO] DISCONNECT: ('127.0.0.1', 64949) 断开连接
+2025-02-26 12:15:38,094 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 12:15:47,509 [INFO] CONNECT: ('127.0.0.1', 51350) 已连接
+2025-02-26 12:16:13,282 [INFO] REQUEST: ('127.0.0.1', 51350) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123'}
+2025-02-26 12:16:41,571 [INFO] REQUEST: ('127.0.0.1', 51350) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 12:16:41,612 [INFO] AUDIT: User 1 action: create_account, details: 创建账户：ai_a, ip: 127.0.0.1
+2025-02-26 12:17:34,587 [INFO] REQUEST: ('127.0.0.1', 51350) 请求: {'action': 'login', 'username': 'ai_a', 'password': '123456', 'otp': '123456'}
+2025-02-26 12:17:34,622 [INFO] AUDIT: User 1 action: login, details: 用户 ai_a 登录, ip: 127.0.0.1
+2025-02-26 13:47:39,307 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 13:47:46,742 [INFO] CONNECT: ('127.0.0.1', 51481) 已连接
+2025-02-26 13:48:41,668 [INFO] REQUEST: ('127.0.0.1', 51481) 请求: {'action': 'login', 'username': 'ai_a', 'password': '123456', 'otp': '123456'}
+2025-02-26 13:48:41,682 [INFO] AUDIT: User 1 action: login, details: 用户 ai_a 登录, ip: 127.0.0.1
+2025-02-26 13:48:51,038 [INFO] REQUEST: ('127.0.0.1', 51481) 请求: {'action': 'get_account_info', 'username': 'ai_a'}
+2025-02-26 13:49:11,945 [INFO] REQUEST: ('127.0.0.1', 51481) 请求: {'action': 'transfer_funds', 'username': 'ai_a', 'from_account': '123', 'to_account': '123', 'amount': '123', 'currency': 'USD'}
+2025-02-26 15:42:05,786 [INFO] DISCONNECT: ('127.0.0.1', 51481) 断开连接
+2025-02-26 15:42:16,646 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 15:42:38,286 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 15:42:45,524 [INFO] CONNECT: ('127.0.0.1', 52862) 已连接
+2025-02-26 15:43:32,204 [INFO] REQUEST: ('127.0.0.1', 52862) 请求: {'action': 'create_account', 'username': 'ai_a', 'password': '123456', 'email': 'ai_a@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 15:44:05,383 [INFO] REQUEST: ('127.0.0.1', 52862) 请求: {'action': 'create_account', 'username': 'ai_b', 'password': '123456', 'email': 'ai_b@warwick.ac.uk', 'phone': '077123456'}
+2025-02-26 15:45:41,625 [INFO] DISCONNECT: ('127.0.0.1', 52862) 断开连接
+2025-02-26 15:45:41,792 [INFO] CONNECT: ('127.0.0.1', 52864) 已连接
+2025-02-26 15:46:13,499 [INFO] DISCONNECT: ('127.0.0.1', 52864) 断开连接
+2025-02-26 15:46:19,203 [INFO] CONNECT: ('127.0.0.1', 52866) 已连接
+2025-02-26 15:47:04,014 [INFO] REQUEST: ('127.0.0.1', 52866) 请求: {'action': 'create_account', 'username': 'ai_b', 'password': '123456', 'email': 'ai_b@warwick.ac.uk', 'phone': '077123456', 'pay_password': '222222'}
+2025-02-26 15:50:14,253 [INFO] DISCONNECT: ('127.0.0.1', 52866) 断开连接
+2025-02-26 15:52:26,851 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 15:52:29,691 [INFO] CONNECT: ('127.0.0.1', 52937) 已连接
+2025-02-26 15:53:44,409 [INFO] REQUEST: ('127.0.0.1', 52937) 请求: {'action': 'create_account', 'username': 'ai_b', 'password': '123456', 'email': 'ai_b@warwick.ac.uk', 'phone': '077123456', 'pay_password': '222222'}
+2025-02-26 15:53:44,409 [INFO] ERROR: ('127.0.0.1', 52937) 请求处理异常: validate_registration_data() takes 4 positional arguments but 5 were given
+2025-02-26 17:03:18,105 [INFO] DISCONNECT: ('127.0.0.1', 52937) 断开连接
+2025-02-26 17:03:37,992 [INFO] START: 服务器启动，监听 127.0.0.1:8443
+2025-02-26 17:09:43,009 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-02-26 17:10:26,450 [INFO] CONNECT: ('127.0.0.1', 53931) 已连接
+2025-02-26 17:11:00,509 [INFO] REQUEST: ('127.0.0.1', 53931) 请求: {'action': 'create_account', 'username': 'ai_b', 'password': '123456', 'email': 'ai_b@warwick.ac.uk', 'phone': '077123456', 'pay_password': '222222'}
+2025-02-26 17:14:56,519 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-02-26 17:18:15,175 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-02-26 17:18:17,715 [INFO] CONNECT: ('127.0.0.1', 54017) 已连接
+2025-02-26 17:18:49,764 [INFO] REQUEST: ('127.0.0.1', 54017) 请求: {'action': 'create_account', 'username': 'ai_b', 'password': '123456', 'email': 'ai_b@warwick.ac.uk', 'phone': '077123456', 'pay_password': '222222'}
+2025-02-26 17:18:49,805 [INFO] AUDIT: User 1 action: create_account, details: 创建账户：ai_b, ip: 127.0.0.1
+2025-02-26 17:19:16,467 [INFO] REQUEST: ('127.0.0.1', 54017) 请求: {'action': 'login', 'username': 'ai_b', 'password': '123456', 'otp': ''}
+2025-02-26 17:22:51,621 [INFO] REQUEST: ('127.0.0.1', 54017) 请求: {'action': 'login', 'username': 'ai_b', 'password': '123456', 'otp': '111111'}
+2025-02-26 17:23:06,332 [INFO] REQUEST: ('127.0.0.1', 54017) 请求: {'action': 'login', 'username': 'ai_b', 'password': '123456', 'otp': '511045'}
+2025-02-26 17:23:06,368 [INFO] AUDIT: User 1 action: login, details: 用户 ai_b 登录, ip: 127.0.0.1
+2025-02-26 17:23:44,623 [INFO] DISCONNECT: ('127.0.0.1', 54017) 断开连接
+2025-02-28 10:50:36,531 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-02-28 10:50:40,261 [INFO] CONNECT: ('127.0.0.1', 53495) 已连接
+2025-03-05 10:49:34,432 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 10:49:42,483 [INFO] CONNECT: ('127.0.0.1', 58687) 已连接
+2025-03-05 10:49:46,280 [INFO] DISCONNECT: ('127.0.0.1', 58687) 断开连接
+2025-03-05 10:49:46,411 [INFO] CONNECT: ('127.0.0.1', 58688) 已连接
+2025-03-05 10:49:48,693 [INFO] DISCONNECT: ('127.0.0.1', 58688) 断开连接
+2025-03-05 10:50:30,652 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 10:57:35,483 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 11:00:44,859 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 11:04:52,766 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 11:04:57,499 [INFO] CONNECT: ('127.0.0.1', 58749) 已连接
+2025-03-05 11:14:53,881 [INFO] DISCONNECT: ('127.0.0.1', 58749) 断开连接
+2025-03-05 11:14:54,003 [INFO] ERROR: SSL 握手失败: [SSL: TLSV1_ALERT_DECRYPT_ERROR] tlsv1 alert decrypt error (_ssl.c:1000)
+2025-03-05 11:15:14,452 [INFO] START: 服务器启动，监听 127.0.0.1:12345
+2025-03-05 11:18:51,480 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-05 11:20:08,719 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-05 11:20:15,820 [INFO] CONNECT: ('127.0.0.1', 58830) 已连接
+2025-03-05 11:25:34,870 [INFO] CONNECT: ('127.0.0.1', 58910) 已连接
+2025-03-05 11:26:05,809 [INFO] REQUEST: ('127.0.0.1', 58910) 请求: {'action': 'login', 'username': '_', 'password': '123', 'otp': '123'}
+2025-03-05 11:26:38,158 [INFO] REQUEST: ('127.0.0.1', 58910) 请求: {'action': 'login', 'username': '12', 'password': '1123', 'otp': '123'}
+2025-03-05 12:50:57,586 [INFO] DISCONNECT: ('127.0.0.1', 58830) 断开连接
+2025-03-05 12:50:57,586 [INFO] DISCONNECT: ('127.0.0.1', 58910) 断开连接
+2025-03-06 19:20:32,031 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-06 23:40:48,139 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-06 23:40:52,560 [INFO] CONNECT: ('127.0.0.1', 54107) 已连接
+2025-03-07 01:54:56,755 [INFO] DISCONNECT: ('127.0.0.1', 54107) 断开连接
+2025-03-07 02:05:00,594 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:32:19,599 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:32:25,220 [INFO] CONNECT: ('127.0.0.1', 64967) 已连接
+2025-03-07 02:33:21,125 [INFO] REQUEST: ('127.0.0.1', 64967) 请求: {'action': 'create_account', 'username': 'client1', 'password': '123456', 'email': 'client1@warwick.ac.uk', 'phone': '123456', 'pay_password': '666666', 'role': 'client'}
+2025-03-07 02:34:03,984 [INFO] REQUEST: ('127.0.0.1', 64967) 请求: {'action': 'create_account', 'username': 'client1', 'password': '123456', 'email': 'client1@warwick.ac.uk', 'phone': '077123456', 'pay_password': '666666', 'role': 'client'}
+2025-03-07 02:34:04,024 [INFO] AUDIT: User 1 action: create_account, details: 创建账户：client1, 角色：client, ip: 127.0.0.1
+2025-03-07 02:34:31,165 [INFO] REQUEST: ('127.0.0.1', 64967) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 02:34:31,194 [INFO] SMS: 为 client1 生成OTP验证码: 227720，已写入文件 otp_client1.txt
+2025-03-07 02:37:45,777 [INFO] DISCONNECT: ('127.0.0.1', 64967) 断开连接
+2025-03-07 02:38:09,096 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:38:11,519 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:38:16,104 [INFO] CONNECT: ('127.0.0.1', 54943) 已连接
+2025-03-07 02:38:22,955 [INFO] REQUEST: ('127.0.0.1', 54943) 请求: {'action': 'login', 'username': '', 'password': '1', 'otp': ''}
+2025-03-07 02:38:48,760 [INFO] REQUEST: ('127.0.0.1', 54943) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 02:38:48,792 [INFO] SMS: 为 client1 生成OTP验证码: 298328，已写入文件 otp_client1.txt
+2025-03-07 02:45:29,028 [INFO] DISCONNECT: ('127.0.0.1', 54943) 断开连接
+2025-03-07 02:45:29,513 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:45:33,160 [INFO] CONNECT: ('127.0.0.1', 55023) 已连接
+2025-03-07 02:46:19,700 [INFO] REQUEST: ('127.0.0.1', 55023) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 02:46:19,730 [INFO] SMS: OTP for client1 is 219599. Written to file otp_client1.txt.
+2025-03-07 02:52:46,049 [INFO] REQUEST: ('127.0.0.1', 55023) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '219599'}
+2025-03-07 02:52:46,102 [INFO] SMS: OTP for client1 is 354769. Written to file otp_client1.txt.
+2025-03-07 02:54:12,372 [INFO] DISCONNECT: ('127.0.0.1', 55023) 断开连接
+2025-03-07 02:54:16,246 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:54:20,779 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 02:54:23,462 [INFO] CONNECT: ('127.0.0.1', 55052) 已连接
+2025-03-07 02:56:09,677 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 02:56:09,730 [INFO] SMS: OTP for client1 is 889015. Written to file otp_client1.txt.
+2025-03-07 02:56:49,544 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '889015'}
+2025-03-07 02:56:49,554 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 02:57:26,488 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'get_account_info', 'username': 'client1'}
+2025-03-07 02:57:42,336 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'transfer_funds', 'username': 'client1', 'from_account': '123', 'to_account': '123', 'amount': '12', 'currency': '12'}
+2025-03-07 03:01:25,009 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'pay_bill', 'username': 'client1', 'account': '12', 'biller': '12', 'amount': '12'}
+2025-03-07 03:01:32,519 [INFO] REQUEST: ('127.0.0.1', 55052) 请求: {'action': 'send_message', 'sender': 'client1', 'recipient': '12', 'message': '12'}
+2025-03-07 03:01:32,519 [INFO] SEND_MESSAGE: client1 发送消息给 12: 12
+2025-03-07 03:01:32,519 [INFO] INFO: 收件人 12 不在线，消息存储待处理
+2025-03-07 03:01:56,801 [INFO] DISCONNECT: ('127.0.0.1', 55052) 断开连接
+2025-03-07 03:02:00,858 [INFO] START: 服务器启动，监听 127.0.0.1:23456
+2025-03-07 03:02:03,524 [INFO] CONNECT: ('127.0.0.1', 55096) 已连接
+2025-03-07 03:02:12,950 [INFO] REQUEST: ('127.0.0.1', 55096) 请求: {'action': 'login', 'username': 'clinet2', 'password': '1124', 'otp': '12'}
+2025-03-07 03:02:42,787 [INFO] REQUEST: ('127.0.0.1', 55096) 请求: {'action': 'login', 'username': 'client2', 'password': '123456', 'otp': ''}
+2025-03-07 03:02:57,360 [INFO] REQUEST: ('127.0.0.1', 55096) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 03:02:57,388 [INFO] SMS: OTP for client1 is 113603. Written to file otp_client1.txt.
+2025-03-07 03:03:44,951 [INFO] REQUEST: ('127.0.0.1', 55096) 请求: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '113603'}
+2025-03-07 03:03:44,987 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 03:04:02,658 [INFO] CONNECT: ('127.0.0.1', 55100) 已连接
+2025-03-07 03:04:57,822 [INFO] REQUEST: ('127.0.0.1', 55100) 请求: {'action': 'create_account', 'username': 'employee1', 'password': '123456', 'pay_password': '666666', 'email': 'employee1@mybank.com', 'phone': '077123456', 'role': 'employee'}
+2025-03-07 03:04:57,862 [INFO] AUDIT: User 2 action: create_account, details: 创建账户：employee1, 角色：employee, ip: 127.0.0.1
+2025-03-07 03:05:16,223 [INFO] REQUEST: ('127.0.0.1', 55100) 请求: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 03:05:16,225 [INFO] SMS: OTP for employee1 is 695225. Written to file otp_employee1.txt.
+2025-03-07 03:06:19,770 [INFO] REQUEST: ('127.0.0.1', 55100) 请求: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '113603', 'role': 'employee'}
+2025-03-07 03:07:14,451 [INFO] REQUEST: ('127.0.0.1', 55100) 请求: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '695225', 'role': 'employee'}
+2025-03-07 03:07:14,485 [INFO] AUDIT: User 2 action: login, details: User employee1 logged in, ip: 127.0.0.1
+2025-03-07 03:07:39,278 [INFO] REQUEST: ('127.0.0.1', 55096) 请求: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': 'hello!'}
+2025-03-07 03:07:39,278 [INFO] SEND_MESSAGE: client1 发送消息给 employee1: hello!
+2025-03-07 03:07:39,278 [INFO] INFO: 收件人 employee1 不在线，消息存储待处理
+2025-03-07 03:12:29,237 [INFO] REQUEST: ('127.0.0.1', 55100) 请求: {'action': 'send_message', 'sender': 'employee1', 'recipient': 'client1', 'message': 'hello'}
+2025-03-07 03:12:29,237 [INFO] SEND_MESSAGE: employee1 发送消息给 client1: hello
+2025-03-07 03:12:29,237 [INFO] INFO: 收件人 client1 不在线，消息存储待处理
+2025-03-07 03:37:41,453 [INFO] CONNECT: ('127.0.0.1', 55250) 已连接
+2025-03-07 03:38:25,720 [INFO] REQUEST: ('127.0.0.1', 55250) 请求: {'action': 'create_account', 'username': 'admin1', 'password': '123456', 'pay_password': '666666', 'email': 'admin1@mybank.com', 'phone': '077123456', 'role': 'admin'}
+2025-03-07 03:38:25,763 [INFO] AUDIT: User 3 action: create_account, details: 创建账户：admin1, 角色：admin, ip: 127.0.0.1
+2025-03-07 04:43:16,611 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 04:43:35,208 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 04:43:37,858 [INFO] CONNECT: ('127.0.0.1', 59525) connected
+2025-03-07 04:43:58,814 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 04:43:58,820 [INFO] SMS: OTP for client1 is 245227. Written to file otp_client1.txt.
+2025-03-07 04:44:20,185 [INFO] CONNECT: ('127.0.0.1', 59528) connected
+2025-03-07 04:44:47,547 [INFO] REQUEST: ('127.0.0.1', 59528) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 04:44:47,577 [INFO] SMS: OTP for employee1 is 718116. Written to file otp_employee1.txt.
+2025-03-07 04:45:07,222 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '245227'}
+2025-03-07 04:45:07,256 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 04:45:07,256 [INFO] INFO: User client1 added to online_users
+2025-03-07 04:45:14,508 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'get_account_info', 'username': 'client1'}
+2025-03-07 04:45:35,032 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'transfer_funds', 'username': 'client1', 'from_account': '124', 'to_account': '123', 'amount': '`12', 'currency': '12'}
+2025-03-07 04:45:52,886 [INFO] REQUEST: ('127.0.0.1', 59528) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 04:45:52,917 [INFO] SMS: OTP for employee1 is 305556. Written to file otp_employee1.txt.
+2025-03-07 04:47:20,790 [INFO] REQUEST: ('127.0.0.1', 59528) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '305556', 'role': 'employee'}
+2025-03-07 04:47:20,824 [INFO] AUDIT: User 2 action: login, details: User employee1 logged in, ip: 127.0.0.1
+2025-03-07 04:47:20,824 [INFO] INFO: User employee1 added to online_users
+2025-03-07 04:47:35,202 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': 'hello'}
+2025-03-07 04:47:35,202 [INFO] SEND_MESSAGE: client1 sends message to employee1: hello
+2025-03-07 04:47:35,210 [INFO] AUDIT: User 2 action: receive_message, details: Received message from client1, ip: 127.0.0.1
+2025-03-07 04:47:59,013 [INFO] REQUEST: ('127.0.0.1', 59528) request: {'action': 'send_message', 'sender': 'employee1', 'recipient': 'client1', 'message': 'Nice'}
+2025-03-07 04:47:59,013 [INFO] SEND_MESSAGE: employee1 sends message to client1: Nice
+2025-03-07 04:47:59,044 [INFO] AUDIT: User 1 action: receive_message, details: Received message from employee1, ip: 127.0.0.1
+2025-03-07 04:52:10,624 [INFO] REQUEST: ('127.0.0.1', 59528) request: {'action': 'view_customer_info', 'requester_role': 'employee', 'customer_username': 'client1'}
+2025-03-07 04:52:10,665 [INFO] DISCONNECT: employee1 removed from online_users
+2025-03-07 04:52:10,665 [INFO] DISCONNECT: ('127.0.0.1', 59528) disconnected
+2025-03-07 04:53:03,100 [INFO] CONNECT: ('127.0.0.1', 59558) connected
+2025-03-07 04:53:28,408 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 04:53:28,438 [INFO] SMS: OTP for employee1 is 371906. Written to file otp_employee1.txt.
+2025-03-07 04:53:48,481 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee2', 'password': '', 'otp': '', 'role': 'employee'}
+2025-03-07 04:57:37,326 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 04:57:37,381 [INFO] SMS: OTP for employee1 is 497492. Written to file otp_employee1.txt.
+2025-03-07 04:58:03,762 [INFO] REQUEST: ('127.0.0.1', 59525) request: {'action': 'transfer_funds', 'username': 'client1', 'from_account': "12'", 'to_account': '12', 'amount': '12', 'currency': '2'}
+2025-03-07 04:58:34,841 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee2', 'password': '12', 'otp': '12', 'role': 'employee'}
+2025-03-07 04:58:56,806 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 04:58:56,814 [INFO] SMS: OTP for employee1 is 905120. Written to file otp_employee1.txt.
+2025-03-07 04:59:34,669 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '905120', 'role': 'employee'}
+2025-03-07 04:59:34,679 [INFO] AUDIT: User 2 action: login, details: User employee1 logged in, ip: 127.0.0.1
+2025-03-07 04:59:34,679 [INFO] INFO: User employee1 added to online_users
+2025-03-07 05:01:03,548 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'view_customer_info', 'requester_role': 'employee', 'customer_username': 'client1'}
+2025-03-07 05:01:43,760 [INFO] REQUEST: ('127.0.0.1', 59558) request: {'action': 'update_customer_info', 'requester_role': 'employee', 'user_id': 'client1', 'updated_info': 2}
+2025-03-07 05:01:43,797 [INFO] AUDIT: User client1 action: update_customer_info, details: Updated customer information, ip: 127.0.0.1
+2025-03-07 05:04:13,788 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 05:04:21,477 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 05:04:27,593 [INFO] CONNECT: ('127.0.0.1', 59619) connected
+2025-03-07 05:07:23,140 [INFO] CONNECT: ('127.0.0.1', 59629) connected
+2025-03-07 05:07:41,789 [INFO] REQUEST: ('127.0.0.1', 59629) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '245227'}
+2025-03-07 05:08:17,969 [INFO] REQUEST: ('127.0.0.1', 59629) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 05:08:17,999 [INFO] SMS: OTP for client1 is 869369. Written to file otp_client1.txt.
+2025-03-07 05:11:21,491 [INFO] CONNECT: ('127.0.0.1', 59654) connected
+2025-03-07 05:11:33,028 [INFO] REQUEST: ('127.0.0.1', 59654) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-07 05:11:33,034 [INFO] SMS: OTP for employee1 is 836094. Written to file otp_employee1.txt.
+2025-03-07 05:11:47,077 [INFO] REQUEST: ('127.0.0.1', 59629) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '869369'}
+2025-03-07 05:11:47,086 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 05:11:47,086 [INFO] INFO: User client1 added to online_users
+2025-03-07 05:12:01,933 [INFO] REQUEST: ('127.0.0.1', 59629) request: {'action': 'get_account_info', 'username': 'client1'}
+2025-03-07 09:52:35,022 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 09:55:25,545 [INFO] CONNECT: ('127.0.0.1', 55110) connected
+2025-03-07 09:55:44,793 [INFO] REQUEST: ('127.0.0.1', 55110) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 09:55:44,802 [INFO] SMS: OTP for client1 is 915066. Written to file otp_client1.txt.
+2025-03-07 10:02:45,167 [INFO] REQUEST: ('127.0.0.1', 55110) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '915066'}
+2025-03-07 10:02:45,199 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 10:02:45,199 [INFO] INFO: User client1 added to online_users
+2025-03-07 10:21:50,682 [INFO] START: Server started, listening on 127.0.0.1:23456
+2025-03-07 10:24:46,302 [INFO] START: Server started, listening on 127.0.0.1:23567
+2025-03-07 10:25:34,038 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-07 10:25:41,099 [INFO] CONNECT: ('127.0.0.1', 56025) connected
+2025-03-07 10:26:01,134 [INFO] REQUEST: ('127.0.0.1', 56025) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 10:32:05,146 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-07 10:32:14,137 [INFO] CONNECT: ('127.0.0.1', 56584) connected
+2025-03-07 10:32:23,521 [INFO] REQUEST: ('127.0.0.1', 56584) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 10:33:01,854 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-07 10:33:04,347 [INFO] CONNECT: ('127.0.0.1', 56658) connected
+2025-03-07 10:33:13,131 [INFO] REQUEST: ('127.0.0.1', 56658) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-07 10:33:13,162 [INFO] SMS: OTP for client1 is 860364. Written to file otp_client1.txt.
+2025-03-07 10:42:10,972 [INFO] REQUEST: ('127.0.0.1', 56658) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '860364'}
+2025-03-07 10:42:11,007 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-07 10:42:11,007 [INFO] INFO: User client1 added to online_users
+2025-03-07 10:42:12,725 [INFO] REQUEST: ('127.0.0.1', 56658) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 02:59:07,772 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-09 02:59:53,585 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 02:59:59,268 [INFO] CONNECT: ('127.0.0.1', 62361) connected
+2025-03-09 03:00:12,209 [INFO] REQUEST: ('127.0.0.1', 62361) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 03:00:12,243 [INFO] SMS: OTP for client1 is 914972. Written to file otp_client1.txt.
+2025-03-09 03:00:41,775 [INFO] REQUEST: ('127.0.0.1', 62361) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '914972'}
+2025-03-09 03:00:41,784 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-09 03:00:41,784 [INFO] INFO: User client1 added to online_users
+2025-03-09 03:02:01,981 [INFO] REQUEST: ('127.0.0.1', 62361) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 03:07:01,328 [INFO] DISCONNECT: client1 removed from online_users
+2025-03-09 03:07:01,328 [INFO] DISCONNECT: ('127.0.0.1', 62361) disconnected
+2025-03-09 03:07:07,864 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 03:07:09,214 [INFO] CONNECT: ('127.0.0.1', 62418) connected
+2025-03-09 03:09:36,994 [INFO] REQUEST: ('127.0.0.1', 62418) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 03:09:37,025 [INFO] SMS: OTP for client1 is 771633. Written to file otp_client1.txt.
+2025-03-09 03:10:13,785 [INFO] REQUEST: ('127.0.0.1', 62418) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 03:10:13,821 [INFO] SMS: OTP for client1 is 729753. Written to file otp_client1.txt.
+2025-03-09 03:10:39,800 [INFO] REQUEST: ('127.0.0.1', 62418) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '729753'}
+2025-03-09 03:10:39,836 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-09 03:10:39,836 [INFO] INFO: User client1 added to online_users
+2025-03-09 03:10:42,041 [INFO] REQUEST: ('127.0.0.1', 62418) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 03:39:10,052 [INFO] DISCONNECT: client1 removed from online_users
+2025-03-09 03:39:10,053 [INFO] DISCONNECT: ('127.0.0.1', 62418) disconnected
+2025-03-09 03:39:12,926 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 03:39:14,356 [INFO] CONNECT: ('127.0.0.1', 62618) connected
+2025-03-09 03:39:32,345 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 03:39:32,375 [INFO] SMS: OTP for client1 is 558080. Written to file otp_client1.txt.
+2025-03-09 03:39:54,006 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '558080'}
+2025-03-09 03:39:54,040 [INFO] AUDIT: User 1 action: login, details: User client1 logged in, ip: 127.0.0.1
+2025-03-09 03:39:54,040 [INFO] INFO: User client1 added to online_users
+2025-03-09 03:40:11,641 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 03:40:11,646 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: no such table: Loans
+2025-03-09 03:42:06,947 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 03:42:06,955 [INFO] AUDIT: User 1 action: get_account_info, details: Retrieved account details and loan history, ip: 127.0.0.1
+2025-03-09 03:42:38,044 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'process_transfer', 'username': 'client1', 'from_account': '077123', 'to_account': '077123', 'amount': '30', 'currency': 'USD', 'payment_password_verification': '666666', 'requester_role': 'client'}
+2025-03-09 03:42:38,086 [INFO] AUDIT: User 1 action: process_transfer, details: Domestic transfer of 30.0 USD, ip: 127.0.0.1
+2025-03-09 03:59:17,524 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'pay_bill', 'username': 'client1', 'account': '07712', 'biller': 'biller1', 'amount': '30', 'payment_password_verification': '666666', 'requester_role': 'client'}
+2025-03-09 03:59:39,148 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'update_info', 'username': 'client1', 'updated_info': {'address': 'CV1 ', 'phone': '077123'}, 'requester_role': 'client'}
+2025-03-09 04:00:45,809 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'apply_for_loan', 'username': 'client1', 'account': '077124', 'amount': 'loan1', 'loan_type': '', 'payment_password_verification': '', 'requester_role': 'client'}
+2025-03-09 04:01:11,492 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'apply_for_loan', 'username': 'client1', 'account': '077125', 'amount': 'loan1', 'loan_type': '', 'payment_password_verification': '666666', 'requester_role': 'client'}
+2025-03-09 04:01:40,051 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'apply_for_loan', 'username': 'client1', 'account': '077125', 'amount': '50', 'loan_type': 'personal', 'payment_password_verification': '666666', 'requester_role': 'client'}
+2025-03-09 04:01:40,088 [INFO] AUDIT: User 1 action: apply_for_loan, details: User client1 applied for a personal loan of 50.0 using account 077125, ip: 127.0.0.1
+2025-03-09 04:02:10,387 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': 'Hello world!'}
+2025-03-09 04:02:10,388 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: no such column: public_key
+2025-03-09 04:08:58,087 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': 'Hello world!'}
+2025-03-09 04:08:58,124 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: 'NoneType' object cannot be interpreted as an integer
+2025-03-09 04:09:35,516 [INFO] CONNECT: ('127.0.0.1', 54343) connected
+2025-03-09 04:09:50,329 [INFO] REQUEST: ('127.0.0.1', 54343) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-09 04:09:50,335 [INFO] SMS: OTP for employee1 is 456932. Written to file otp_employee1.txt.
+2025-03-09 04:10:26,066 [INFO] REQUEST: ('127.0.0.1', 54343) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '456932', 'role': 'employee'}
+2025-03-09 04:10:26,077 [INFO] AUDIT: User 2 action: login, details: User employee1 logged in, ip: 127.0.0.1
+2025-03-09 04:10:26,077 [INFO] INFO: User employee1 added to online_users
+2025-03-09 04:10:42,139 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': '123456'}
+2025-03-09 04:10:42,140 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: 'NoneType' object cannot be interpreted as an integer
+2025-03-09 04:24:38,236 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': '123456'}
+2025-03-09 04:24:38,237 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: 'NoneType' object cannot be interpreted as an integer
+2025-03-09 04:31:55,089 [INFO] REQUEST: ('127.0.0.1', 54343) request: {'action': 'view_customer_info', 'requester_role': 'employee', 'customer_username': 'client1'}
+2025-03-09 04:37:49,938 [INFO] REQUEST: ('127.0.0.1', 54343) request: {'action': 'process_deposit', 'requester_role': 'employee', 'user_id': 'client1', 'employee_password_verification': '666666'}
+2025-03-09 04:53:34,502 [INFO] REQUEST: ('127.0.0.1', 62618) request: {'action': 'process_transfer', 'username': 'client1', 'from_account': '077', 'to_account': '12', 'amount': '', 'currency': 'USD', 'payment_password_verification': '', 'requester_role': 'client'}
+2025-03-09 04:53:34,503 [INFO] ERROR: ('127.0.0.1', 62618) request processing error: could not convert string to float: ''
+2025-03-09 05:02:03,886 [INFO] CONNECT: ('127.0.0.1', 54575) connected
+2025-03-09 05:09:17,193 [INFO] DISCONNECT: ('127.0.0.1', 54575) disconnected
+2025-03-09 05:09:17,332 [INFO] CONNECT: ('127.0.0.1', 54609) connected
+2025-03-09 05:10:38,680 [INFO] DISCONNECT: ('127.0.0.1', 54609) disconnected
+2025-03-09 05:10:38,820 [INFO] CONNECT: ('127.0.0.1', 54615) connected
+2025-03-09 05:10:39,305 [INFO] DISCONNECT: ('127.0.0.1', 54615) disconnected
+2025-03-09 05:10:39,430 [INFO] CONNECT: ('127.0.0.1', 54616) connected
+2025-03-09 05:10:39,925 [INFO] DISCONNECT: ('127.0.0.1', 54616) disconnected
+2025-03-09 05:10:40,036 [INFO] CONNECT: ('127.0.0.1', 54617) connected
+2025-03-09 05:10:51,980 [INFO] REQUEST: ('127.0.0.1', 54617) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 05:10:52,013 [INFO] SMS: OTP for admin1 is 150614. Written to file otp_admin1.txt.
+2025-03-09 05:11:13,517 [INFO] REQUEST: ('127.0.0.1', 54617) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '150614', 'role': 'admin'}
+2025-03-09 05:11:13,551 [INFO] AUDIT: User 3 action: login, details: User admin1 logged in, ip: 127.0.0.1
+2025-03-09 05:11:13,551 [INFO] INFO: User admin1 added to online_users
+2025-03-09 05:13:51,200 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-09 05:13:51,200 [INFO] DISCONNECT: ('127.0.0.1', 54617) disconnected
+2025-03-09 05:13:51,360 [INFO] CONNECT: ('127.0.0.1', 54637) connected
+2025-03-09 05:14:02,563 [INFO] REQUEST: ('127.0.0.1', 54637) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 05:14:02,596 [INFO] SMS: OTP for admin1 is 442364. Written to file otp_admin1.txt.
+2025-03-09 05:14:26,897 [INFO] REQUEST: ('127.0.0.1', 54637) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '442364', 'role': 'admin'}
+2025-03-09 05:14:26,933 [INFO] AUDIT: User 3 action: login, details: User admin1 logged in, ip: 127.0.0.1
+2025-03-09 05:14:26,933 [INFO] INFO: User admin1 added to online_users
+2025-03-09 05:14:30,843 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-09 05:14:30,843 [INFO] DISCONNECT: ('127.0.0.1', 54637) disconnected
+2025-03-09 05:24:02,472 [INFO] CONNECT: ('127.0.0.1', 54680) connected
+2025-03-09 05:24:12,612 [INFO] REQUEST: ('127.0.0.1', 54680) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 05:24:12,644 [INFO] SMS: OTP for admin1 is 778064. Written to file otp_admin1.txt.
+2025-03-09 05:24:49,517 [INFO] REQUEST: ('127.0.0.1', 54680) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '778064', 'role': 'admin'}
+2025-03-09 05:24:49,527 [INFO] AUDIT: User 3 action: login, details: User admin1 logged in, ip: 127.0.0.1
+2025-03-09 05:24:49,527 [INFO] INFO: User admin1 added to online_users
+2025-03-09 05:25:25,643 [INFO] REQUEST: ('127.0.0.1', 54680) request: {'action': 'manage_user_roles', 'admin': 'admin1', 'operation': 'create', 'role_data': {'role_name': 'client', 'permissions': 'a'}, 'requester_role': 'admin', 'admin_password_verification': ''}
+2025-03-09 05:29:20,268 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-09 05:29:20,268 [INFO] DISCONNECT: ('127.0.0.1', 54680) disconnected
+2025-03-09 05:29:20,446 [INFO] CONNECT: ('127.0.0.1', 54693) connected
+2025-03-09 05:29:31,680 [INFO] REQUEST: ('127.0.0.1', 54693) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 05:29:31,687 [INFO] SMS: OTP for admin1 is 486575. Written to file otp_admin1.txt.
+2025-03-09 05:29:54,209 [INFO] REQUEST: ('127.0.0.1', 54693) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '486575', 'role': 'admin'}
+2025-03-09 05:29:59,682 [ERROR] Audit log write failed: database is locked
+2025-03-09 05:29:59,683 [INFO] INFO: User admin1 added to online_users
+2025-03-09 05:30:30,561 [INFO] REQUEST: ('127.0.0.1', 54693) request: {'action': 'manage_user_roles', 'admin': 'admin1', 'operation': 'create', 'role_data': {'role_name': 'client', 'permissions': 'read write'}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 06:12:08,887 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 06:12:21,594 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 06:12:44,645 [INFO] CONNECT: ('127.0.0.1', 54880) connected
+2025-03-09 06:12:44,645 [INFO] ERROR: ('127.0.0.1', 54880) request processing error: 'nonce'
+2025-03-09 06:12:44,646 [INFO] DISCONNECT: ('127.0.0.1', 54880) disconnected
+2025-03-09 06:13:02,641 [INFO] CONNECT: ('127.0.0.1', 54884) connected
+2025-03-09 06:13:02,641 [INFO] ERROR: ('127.0.0.1', 54884) request processing error: 'nonce'
+2025-03-09 06:13:02,641 [INFO] DISCONNECT: ('127.0.0.1', 54884) disconnected
+2025-03-09 06:13:41,344 [INFO] CONNECT: ('127.0.0.1', 54886) connected
+2025-03-09 06:13:52,514 [INFO] REQUEST: ('127.0.0.1', 54886) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 06:13:52,545 [INFO] SMS: OTP for client1 is 881436. Written to file otp_client1.txt.
+2025-03-09 06:14:01,082 [INFO] REQUEST: ('127.0.0.1', 54886) request: {'action': 'login', 'username': '123456', 'password': '', 'otp': ''}
+2025-03-09 06:14:22,677 [INFO] REQUEST: ('127.0.0.1', 54886) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '881436'}
+2025-03-09 06:18:17,698 [INFO] CONNECT: ('127.0.0.1', 54899) connected
+2025-03-09 06:18:26,861 [INFO] REQUEST: ('127.0.0.1', 54899) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-09 06:18:26,868 [INFO] SMS: OTP for employee1 is 330805. Written to file otp_employee1.txt.
+2025-03-09 06:18:49,885 [INFO] REQUEST: ('127.0.0.1', 54899) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '330805', 'role': 'employee'}
+2025-03-09 06:28:45,587 [INFO] DISCONNECT: ('127.0.0.1', 54886) disconnected
+2025-03-09 06:28:45,689 [INFO] CONNECT: ('127.0.0.1', 54938) connected
+2025-03-09 06:28:53,644 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 06:28:53,651 [INFO] SMS: OTP for client1 is 948234. Written to file otp_client1.txt.
+2025-03-09 06:29:08,678 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '948234'}
+2025-03-09 06:36:31,266 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 06:36:31,275 [INFO] SMS: OTP for client1 is 526163. Written to file otp_client1.txt.
+2025-03-09 06:36:45,930 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '526163'}
+2025-03-09 06:42:30,421 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-09 06:42:30,428 [INFO] SMS: OTP for client1 is 190122. Written to file otp_client1.txt.
+2025-03-09 06:42:48,880 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': '190122'}
+2025-03-09 06:42:48,881 [INFO] INFO: User client1 added to online_users
+2025-03-09 06:44:32,932 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 06:44:32,991 [INFO] AUDIT: User 1 action: get_account_info, details: Retrieved account details and loan history, ip: 127.0.0.1
+2025-03-09 06:45:09,864 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'apply_for_loan', 'username': 'client1', 'account': '077', 'amount': '30', 'loan_type': 'personal', 'payment_password_verification': '666666', 'requester_role': 'client'}
+2025-03-09 06:45:09,901 [INFO] AUDIT: User 1 action: apply_for_loan, details: User client1 applied for a personal loan of 30.0 using account 077, ip: 127.0.0.1
+2025-03-09 06:45:14,208 [INFO] REQUEST: ('127.0.0.1', 54938) request: {'action': 'get_account_info', 'username': 'client1', 'requester_role': 'client'}
+2025-03-09 06:45:14,215 [INFO] AUDIT: User 1 action: get_account_info, details: Retrieved account details and loan history, ip: 127.0.0.1
+2025-03-09 07:00:15,082 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 07:00:19,955 [INFO] CONNECT: ('127.0.0.1', 55132) connected
+2025-03-09 07:00:29,221 [INFO] REQUEST: ('127.0.0.1', 55132) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 07:00:29,227 [INFO] SMS: OTP for admin1 is 784456. Written to file otp_admin1.txt.
+2025-03-09 07:00:43,819 [INFO] REQUEST: ('127.0.0.1', 55132) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '784456', 'role': 'admin'}
+2025-03-09 07:00:43,820 [INFO] INFO: User admin1 added to online_users
+2025-03-09 07:03:57,307 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-09 07:03:57,307 [INFO] DISCONNECT: ('127.0.0.1', 55132) disconnected
+2025-03-09 07:04:06,190 [INFO] CONNECT: ('127.0.0.1', 55152) connected
+2025-03-09 07:04:16,493 [INFO] REQUEST: ('127.0.0.1', 55152) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 07:04:16,524 [INFO] SMS: OTP for admin1 is 659729. Written to file otp_admin1.txt.
+2025-03-09 07:04:29,605 [INFO] REQUEST: ('127.0.0.1', 55152) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '659729', 'role': 'admin'}
+2025-03-09 07:04:29,605 [INFO] INFO: User admin1 added to online_users
+2025-03-09 07:04:35,536 [INFO] REQUEST: ('127.0.0.1', 55152) request: {'action': 'monitor_security', 'admin': 'admin1', 'requester_role': 'admin'}
+2025-03-09 07:07:01,149 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-09 07:07:01,149 [INFO] DISCONNECT: ('127.0.0.1', 55152) disconnected
+2025-03-09 07:07:01,268 [INFO] CONNECT: ('127.0.0.1', 55183) connected
+2025-03-09 07:07:09,656 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-09 07:07:09,666 [INFO] SMS: OTP for admin1 is 669715. Written to file otp_admin1.txt.
+2025-03-09 07:07:21,063 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '669715', 'role': 'admin'}
+2025-03-09 07:07:21,063 [INFO] INFO: User admin1 added to online_users
+2025-03-09 07:07:34,300 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'monitor_security', 'admin': 'admin1', 'requester_role': 'admin'}
+2025-03-09 07:08:02,155 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'view', 'key_details': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:08:20,572 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'view', 'key_details': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:09:42,115 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'system_maintenance', 'admin': 'admin1', 'operation': 'update', 'maintenance_details': {'update_info': 'Fix security vulnerability CVE-2024-1234'}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:09:42,115 [INFO] ERROR: ('127.0.0.1', 55183) request processing error: name 'subprocess' is not defined
+2025-03-09 07:14:07,584 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_user_roles', 'admin': 'admin1', 'operation': 'view', 'role_data': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:14:31,781 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'view', 'key_details': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:22:46,030 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'view', 'key_details': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:27:24,177 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'generate', 'key_details': {'key_type': 'AES', 'key_usage': 'general'}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-09 07:43:05,546 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'monitor_security', 'admin': 'admin1', 'requester_role': 'admin'}
+2025-03-09 07:45:54,000 [INFO] REQUEST: ('127.0.0.1', 55183) request: {'action': 'monitor_security', 'admin': 'admin1', 'requester_role': 'admin'}
+2025-03-09 08:16:58,027 [INFO] CONNECT: ('127.0.0.1', 55677) connected
+2025-03-09 08:16:58,027 [INFO] ERROR: ('127.0.0.1', 55677) request processing error: 'nonce'
+2025-03-09 08:16:58,028 [INFO] DISCONNECT: ('127.0.0.1', 55677) disconnected
+2025-03-09 08:17:16,910 [INFO] CONNECT: ('127.0.0.1', 55687) connected
+2025-03-09 08:17:16,910 [INFO] ERROR: ('127.0.0.1', 55687) request processing error: 'nonce'
+2025-03-09 08:17:16,911 [INFO] DISCONNECT: ('127.0.0.1', 55687) disconnected
+2025-03-09 08:38:46,454 [INFO] START: Server started, listening on 127.0.0.1:23588
+2025-03-09 08:38:57,455 [INFO] CONNECT: ('127.0.0.1', 63050) connected
+2025-03-09 08:38:57,455 [INFO] ERROR: ('127.0.0.1', 63050) request processing error: 'nonce'
+2025-03-09 08:38:57,456 [INFO] DISCONNECT: ('127.0.0.1', 63050) disconnected
+2025-03-09 08:41:59,288 [INFO] ERROR: SSL handshake failed: [SSL: TLSV1_ALERT_DECRYPT_ERROR] tlsv1 alert decrypt error (_ssl.c:1000)
+2025-03-09 08:46:45,468 [INFO] ERROR: SSL handshake failed: [SSL: TLSV1_ALERT_DECRYPT_ERROR] tlsv1 alert decrypt error (_ssl.c:1000)
+2025-03-09 08:46:55,472 [INFO] ERROR: SSL handshake failed: [SSL: TLSV1_ALERT_DECRYPT_ERROR] tlsv1 alert decrypt error (_ssl.c:1000)
+2025-03-09 09:29:24,340 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-09 09:29:27,931 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-09 09:29:31,035 [INFO] CONNECT: ('127.0.0.1', 63267) connected
+2025-03-10 19:32:33,663 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-10 19:32:36,080 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-10 19:32:37,879 [INFO] CONNECT: ('127.0.0.1', 59509) connected
+2025-03-10 19:32:46,206 [INFO] REQUEST: ('127.0.0.1', 59509) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-10 19:33:57,317 [INFO] CONNECT: ('127.0.0.1', 59512) connected
+2025-03-10 19:34:08,090 [INFO] REQUEST: ('127.0.0.1', 59512) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-10 19:34:08,123 [INFO] SMS: OTP for admin1 is 561208. Written to file otp_admin1.txt.
+2025-03-10 19:34:22,014 [INFO] CONNECT: ('127.0.0.1', 59513) connected
+2025-03-10 19:34:32,889 [INFO] REQUEST: ('127.0.0.1', 59513) request: {'action': 'login', 'username': 'employee1', 'password': '123456', 'otp': '', 'role': 'employee'}
+2025-03-10 19:53:20,329 [INFO] REQUEST: ('127.0.0.1', 59512) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '561208', 'role': 'admin'}
+2025-03-10 19:53:20,330 [INFO] INFO: User admin1 added to online_users
+2025-03-10 20:03:51,015 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-10 20:03:58,940 [INFO] CONNECT: ('127.0.0.1', 60240) connected
+2025-03-10 20:04:12,088 [INFO] REQUEST: ('127.0.0.1', 60240) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-10 20:04:12,096 [INFO] SMS: OTP for admin1 is 960060. Written to file otp_admin1.txt.
+2025-03-10 20:04:39,178 [INFO] REQUEST: ('127.0.0.1', 60240) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '960060', 'role': 'admin'}
+2025-03-10 20:04:39,179 [INFO] INFO: User admin1 added to online_users
+2025-03-10 20:08:14,239 [INFO] CONNECT: ('127.0.0.1', 60288) connected
+2025-03-10 20:08:24,957 [INFO] REQUEST: ('127.0.0.1', 60288) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-10 20:13:44,643 [INFO] REQUEST: ('127.0.0.1', 60240) request: {'action': 'manage_user_roles', 'admin': 'admin1', 'operation': 'update', 'role_data': {'role_name': 'client', 'permissions': 'create_account'}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-10 20:13:44,706 [INFO] AUDIT: User None action: manage_user_roles, details: Operation: update, Data: {'role_name': 'client', 'permissions': 'create_account'}, ip: 127.0.0.1
+2025-03-10 20:14:09,528 [INFO] REQUEST: ('127.0.0.1', 60288) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-10 20:14:41,069 [INFO] REQUEST: ('127.0.0.1', 60288) request: {'action': 'create_account', 'username': 'client1', 'password': '123456', 'email': 'client1@warwick.ac.uk', 'phone': '077123456', 'pay_password': '666666', 'role': 'client'}
+2025-03-10 20:14:55,225 [INFO] REQUEST: ('127.0.0.1', 60288) request: {'action': 'login', 'username': 'client2', 'password': '123456', 'otp': ''}
+2025-03-10 20:15:21,023 [INFO] REQUEST: ('127.0.0.1', 60288) request: {'action': 'create_account', 'username': 'client2', 'password': '123456', 'email': 'client2@qq.com', 'phone': '077123445', 'pay_password': '666666', 'role': 'client'}
+2025-03-10 20:34:49,228 [INFO] REQUEST: ('127.0.0.1', 60240) request: {'action': 'manage_keys', 'admin': 'admin1', 'operation': 'view', 'key_details': {}, 'requester_role': 'admin', 'admin_password_verification': '666666'}
+2025-03-11 00:07:24,941 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-11 00:07:24,941 [INFO] DISCONNECT: ('127.0.0.1', 60240) disconnected
+2025-03-11 00:07:26,533 [INFO] DISCONNECT: ('127.0.0.1', 60288) disconnected
+2025-03-11 03:59:01,448 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-11 03:59:05,867 [INFO] CONNECT: ('127.0.0.1', 51857) connected
+2025-03-11 03:59:14,493 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-11 04:02:30,592 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'login', 'username': 'client1', 'password': '123456', 'otp': ''}
+2025-03-11 04:02:30,626 [INFO] SMS: OTP for client1 is 819013. Written to file otp_client1.txt.
+2025-03-11 04:02:48,092 [INFO] CONNECT: ('127.0.0.1', 51888) connected
+2025-03-11 04:03:51,209 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'create_account', 'username': 'client1', 'password': '', 'email': '', 'phone': '', 'pay_password': '', 'role': 'client'}
+2025-03-11 04:04:13,040 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'create_account', 'username': 'client2', 'password': '123456', 'email': 'client2@qq.com', 'phone': '07712256', 'pay_password': '666666', 'role': 'client'}
+2025-03-11 04:07:24,761 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'create_account', 'username': '1', 'password': '123456', 'email': 'client2@qq.com', 'phone': '0771234', 'pay_password': '666666', 'role': 'client'}
+2025-03-11 04:08:44,379 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'create_account', 'username': 'client2', 'password': '123456', 'email': 'client@qq.com', 'phone': '07712345', 'pay_password': '666666', 'role': 'client'}
+2025-03-11 04:08:44,446 [INFO] AUDIT: User 5 action: create_account, details: Bank account created: 7115944442 for client2, ip: 127.0.0.1
+2025-03-11 04:09:12,550 [INFO] REQUEST: ('127.0.0.1', 51857) request: {'action': 'login', 'username': 'client2', 'password': '123456', 'otp': ''}
+2025-03-11 04:09:12,580 [INFO] SMS: OTP for client2 is 671357. Written to file otp_client2.txt.
+2025-03-11 04:09:40,101 [INFO] CONNECT: ('127.0.0.1', 51976) connected
+2025-03-11 04:13:33,627 [INFO] REQUEST: ('127.0.0.1', 51976) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '671357', 'role': 'admin'}
+2025-03-11 04:13:58,564 [INFO] REQUEST: ('127.0.0.1', 51976) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-11 04:16:27,247 [INFO] REQUEST: ('127.0.0.1', 51976) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '', 'role': 'admin'}
+2025-03-11 04:16:27,254 [INFO] SMS: OTP for admin1 is 267611. Written to file otp_admin1.txt.
+2025-03-11 04:17:01,092 [INFO] REQUEST: ('127.0.0.1', 51976) request: {'action': 'login', 'username': 'admin1', 'password': '123456', 'otp': '267611', 'role': 'admin'}
+2025-03-11 04:17:01,093 [INFO] INFO: User admin1 added to online_users
+2025-03-11 04:43:32,247 [INFO] DISCONNECT: admin1 removed from online_users
+2025-03-11 04:43:32,247 [INFO] DISCONNECT: ('127.0.0.1', 51976) disconnected
+2025-03-11 04:43:33,615 [INFO] DISCONNECT: ('127.0.0.1', 51888) disconnected
+2025-03-11 04:43:34,846 [INFO] DISCONNECT: ('127.0.0.1', 51857) disconnected
+2025-03-11 04:51:14,914 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-11 04:51:17,987 [INFO] CONNECT: ('127.0.0.1', 55915) connected
+2025-03-11 04:51:41,406 [INFO] REQUEST: ('127.0.0.1', 55915) request: {'action': 'login', 'username': 'client1', '******': '123456', 'otp': ''}
+2025-03-11 04:57:07,479 [INFO] CONNECT: ('127.0.0.1', 55959) connected
+2025-03-11 04:57:19,655 [INFO] REQUEST: ('127.0.0.1', 55959) request: {'action': 'login', 'username': 'employee1', '******': '123456', 'otp': '', 'role': 'employee'}
+2025-03-11 04:58:16,573 [INFO] CONNECT: ('127.0.0.1', 55965) connected
+2025-03-11 04:58:28,401 [INFO] REQUEST: ('127.0.0.1', 55965) request: {'action': 'login', 'username': 'admin1', '******': '123456', 'otp': '\\', 'role': 'admin'}
+2025-03-11 05:37:47,362 [INFO] REQUEST: ('127.0.0.1', 55959) request: {'action': 'login', 'username': 'employee1', '******': '123456', 'otp': '', 'role': 'employee'}
+2025-03-11 05:37:47,413 [INFO] SMS: OTP for employee1 is 113004. Written to file otp_employee1.txt.
+2025-03-11 05:37:55,576 [INFO] DISCONNECT: ('127.0.0.1', 55959) disconnected
+2025-03-11 05:37:57,634 [INFO] DISCONNECT: ('127.0.0.1', 55915) disconnected
+2025-03-11 05:38:00,247 [INFO] DISCONNECT: ('127.0.0.1', 55965) disconnected
+2025-03-11 06:44:30,291 [INFO] START: Server started, listening on 127.0.0.1:23566
+2025-03-11 06:44:34,248 [INFO] CONNECT: ('127.0.0.1', 63313) connected
+2025-03-11 06:44:57,561 [INFO] REQUEST: ('127.0.0.1', 63313) request: {'action': 'login', 'username': 'client1', '******': '123456', 'otp': ''}
+2025-03-11 06:44:57,591 [INFO] SMS: OTP for client1 is 771285. Written to file otp_client1.txt.
+2025-03-11 06:45:44,972 [INFO] REQUEST: ('127.0.0.1', 63313) request: {'action': 'login', 'username': 'client1', '******': '123456', 'otp': '771285'}
+2025-03-11 06:45:44,973 [INFO] INFO: User client1 added to online_users
+2025-03-11 06:48:25,070 [INFO] CONNECT: ('127.0.0.1', 63339) connected
+2025-03-11 06:48:38,216 [INFO] REQUEST: ('127.0.0.1', 63339) request: {'action': 'login', 'username': 'employee1', '******': '123456', 'otp': '', 'role': 'employee'}
+2025-03-11 06:48:38,223 [INFO] SMS: OTP for employee1 is 330531. Written to file otp_employee1.txt.
+2025-03-11 06:49:00,949 [INFO] REQUEST: ('127.0.0.1', 63339) request: {'action': 'login', 'username': 'employee1', '******': '123456', 'otp': '330531', 'role': 'employee'}
+2025-03-11 06:49:00,951 [INFO] INFO: User employee1 added to online_users
+2025-03-11 06:49:16,144 [INFO] REQUEST: ('127.0.0.1', 63339) request: {'action': 'send_message', 'sender': 'employee1', 'recipient': 'client1', 'message': 'hello'}
+2025-03-11 06:49:34,379 [INFO] REQUEST: ('127.0.0.1', 63313) request: {'action': 'send_message', 'sender': 'client1', 'recipient': 'employee1', 'message': 'hello'}
+2025-03-11 07:16:14,759 [INFO] DISCONNECT: employee1 removed from online_users
+2025-03-11 07:16:14,760 [INFO] DISCONNECT: ('127.0.0.1', 63339) disconnected
+2025-03-11 07:16:15,005 [INFO] CONNECT: ('127.0.0.1', 63635) connected
+2025-03-11 07:16:16,041 [INFO] DISCONNECT: client1 removed from online_users
+2025-03-11 07:16:16,041 [INFO] DISCONNECT: ('127.0.0.1', 63313) disconnected
+2025-03-11 07:16:16,260 [INFO] CONNECT: ('127.0.0.1', 63636) connected
+2025-03-11 07:16:24,543 [INFO] DISCONNECT: ('127.0.0.1', 63636) disconnected
+2025-03-11 07:17:10,952 [INFO] CONNECT: ('127.0.0.1', 63643) connected
+2025-03-11 07:17:18,650 [INFO] REQUEST: ('127.0.0.1', 63643) request: {'action': 'login', 'username': 'client1', '******': '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92', 'otp': ''}
+2025-03-11 07:17:18,652 [INFO] ERROR: ('127.0.0.1', 63643) handling error: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:2559)
+2025-03-11 07:17:18,652 [INFO] DISCONNECT: ('127.0.0.1', 63643) disconnected
+2025-03-11 07:21:13,518 [INFO] CONNECT: ('127.0.0.1', 63663) connected
+2025-03-11 07:21:27,100 [INFO] REQUEST: ('127.0.0.1', 63663) request: {'action': 'login', 'username': 'client1', '******': '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92', 'otp': ''}
+2025-03-11 07:21:27,101 [INFO] ERROR: ('127.0.0.1', 63663) handling error: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:2559)
+2025-03-11 07:21:27,101 [INFO] DISCONNECT: ('127.0.0.1', 63663) disconnected
